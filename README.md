@@ -1,15 +1,21 @@
 # express-server-mocha
 Follow these steps to create and install the necessary node modules for starting a node express server with the Mocha and Chai testing framework
 #
-Download and install MongoDB#
-Make sure the Mongo daemon is running:#
+Download and install MongoDB
+#
+Make sure the Mongo daemon is running:
+#
 MongoDB\Server\3.0\bin>mongod
+#
 
-After you have cloned the project, initialize and install the necessay node modules#
-npm init#
-npm install#
+After you have cloned the project, initialize and install the necessay node modules
+#
+npm init
+#
+npm install
 
-Here is the package.json that will be installed#
+#
+Here is the package.json that will be installed
 {
   "name": "nodeapp",
   "version": "0.0.0",
@@ -54,10 +60,9 @@ Here is the package.json that will be installed#
 "description": ""
 }
 
-Instead of using 'node app.js' to start the server, we're going to just type 'mocha':#
-mocha
+Instead of using 'node app.js' to start the server, we're going to just type 'mocha':
 
-This will tell the Mocha framework to look for a 'test' directory with Chai tests to execute. #
-In our case, this will run the users_test.js and spin up the server and connect to the database#
-and hit all of our /user endoints that we have defined. #
+This will tell the Mocha framework to look for a 'test' directory with Chai tests to execute. 
+In our case, this will run the users_test.js and spin up the server and connect to the database
+and hit all of our /user endoints that we have defined. 
 It's a great way to quickly test your endpoints whenever you are making changes to your REST API.
